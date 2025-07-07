@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nishika Singh – MCA Graduate</title>
+  <style>
+    /* Embedded CSS */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: #333;
+      background: #fafafa;
+    }
+    header#home {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      background: #edf2f7;
+      padding: 0 1rem;
+    }
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #0d6efd;
+      margin-bottom: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #0d6efd;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 4rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    section.bg-light {
+      background: #f8f9fa;
+    }
+    section h2 {
+      margin-bottom: 1.5rem;
+      color: #0d6efd;
+      text-align: center;
+    }
+    .skills ul {
+      padding-left: 1.2rem;
+    }
+    .timeline {
+      list-style: none;
+      padding-left: 0;
+    }
+    .timeline li {
+      padding: 0.5rem 0;
+      border-left: 4px solid #0d6efd;
+      margin-left: 1rem;
+    }
+    .project {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+    .shadow {
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #0d6efd;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header / Hero -->
+  <header id="home">
+    <img src="assets/nishi.jpeg" alt="Nishika Singh" class="profile-pic" />
+    <h1>Nishika Singh</h1>
+    <p class="lead">MCA Graduate (2025) | Aspiring Data Scientist</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m Nishika Singh, an MCA graduate from Galgotias University (2023–2025) and BCA graduate from Patna University (2018–2022). Passionate about data science, AI/ML, backend development, and solving complex problems to build intelligent systems.
+    </p>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="bg-light">
+    <h2>Resume</h2>
+    <img src="assets/resume.jpeg" alt="Resume of Nishika Singh" class="img-fluid shadow" />
+    <div class="skills">
+      <h3>Technical Skills</h3>
+      <ul>
+        <li>Programming & Tools: Python, SQL, AWS</li>
+        <li>Frameworks: Flask</li>
+        <li>Machine Learning: Regression, Collaborative Filtering, Recommendation Systems</li>
+        <li>Data Visualization: Matplotlib, Seaborn, Plotly</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates">
+    <h2>Certifications</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+      <div style="flex: 1 1 200px; text-align: center;">
+ 
+        <p>Python — Kaggle</p>
+      </div>
+      <div style="flex: 1 1 200px; text-align: center;">
+        <p>Advanced SQL — Kaggle</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="bg-light">
+    <h2>Education</h2>
+    <ul class="timeline">
+      <li><strong>MCA</strong>, Galgotias University (2023–2025)</li>
+      <li><strong>BCA</strong>, Patna University (2018–2022)</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Movie Recommendation System</h3>
+      <p>
+        <strong>Built</strong> a content‑based & collaborative filtering recommendation engine in Python.<br>
+        <strong>Achieved</strong> a 15% increase in suggestion accuracy on test data.<br>
+        <strong>Deployed</strong> using a lightweight Flask application with a simple UI.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light">
+    <h2>Contact Me</h2>
+    <ul style="list-style: none; padding: 0; font-size: 1.1rem;">
+      <li>Email: <a href="mailto:nishikanishi123@gmail.com">nishikanishi123@gmail.com</a></li>
+      <li>Phone: +91‑7254957440</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Nishika Singh
+  </footer>
+
+</body>
+</html>
